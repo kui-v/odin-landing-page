@@ -70,6 +70,16 @@ body {
     align-items: center;
 }
 
+.quote {
+    display: flex;
+    padding: 100px;
+    flex-direction: column;
+}
+
+.quote-author {
+    align-self: flex-end;
+}
+
 /* Div Styling */
 .placeholder-image {
     height: 250px;
@@ -121,6 +131,14 @@ p.card-subtext {
 p.quote-text {
     color: #1f2937;
     font-style: italic;
+    font-weight: lighter;
+    font-size: 36px;
+}
+
+p.quote-author {
+    color: #1f2937;
+    font-style: italic;
+    font-weight: bolder;
     font-size: 36px;
 }
 
