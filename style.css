@@ -90,7 +90,10 @@ body {
 }
 
 .footer {
-    
+    padding: 40px;
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
 }
 
 /* Div Styling */
@@ -131,8 +134,7 @@ body {
 }
 
 a.header-link-text,
-p.hero-subtext,
-p.copyright {
+p.hero-subtext {
     font-size: 18px;
     color: #e5e7eb;
 }
@@ -162,6 +164,11 @@ p.quote-author {
 .cta-main {
     font-weight: bold;
     font-size: 19px;
+}
+
+.footer {
+    font-size: 16px;
+    color: #e5e7eb;
 }
 
 /* Element Styles */
