@@ -80,6 +80,19 @@ body {
     align-self: flex-end;
 }
 
+.cta {
+    margin: 100px 25px 100px 25px;
+    padding: 25px 100px 25px 100px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footer {
+    
+}
+
 /* Div Styling */
 .placeholder-image {
     height: 250px;
@@ -132,14 +145,14 @@ p.quote-text {
     color: #1f2937;
     font-style: italic;
     font-weight: lighter;
-    font-size: 36px;
+    font-size: 35px;
 }
 
 p.quote-author {
     color: #1f2937;
     font-style: italic;
     font-weight: bolder;
-    font-size: 36px;
+    font-size: 20px;
 }
 
 .cta-text, .signup {
