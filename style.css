@@ -1,0 +1,151 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+/* Flex */
+.header,
+.information,
+.quote,
+.cta,
+.footer {
+    display: flex;
+    flex-direction: column;
+}
+
+.nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+}
+
+.header-links {
+    display: flex;
+    flex-direction: row;
+}
+
+.hero-container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    padding: 80px 40px 80px 40px;
+    gap: 50px;
+}
+
+.hero {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+}
+
+.placeholder-image {
+    display: flex;
+    flex: 1;
+}
+
+.information-title {
+    display: flex;
+    justify-content: center;
+    margin: 30px;
+}
+
+.information-cards {
+    display: flex;
+    justify-content: space-evenly;
+    margin-left: 60px;
+    margin-right: 60px;
+}
+
+.card {
+    width: 150px;
+    flex-wrap: wrap;
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Div Styling */
+.placeholder-image {
+    height: 250px;
+    max-width: 400px;
+    background-color: #555;
+}
+
+.card-image {
+    height: 150px;
+    width: 150px;
+    background-color: #555;
+}
+
+.header, .footer {
+    background-color: #1f2937;
+}
+
+.quote {
+    background-color: #e5e7ebc6;
+}
+
+.cta {
+    background-color: #3882f6;
+}
+
+/* Font Styles */
+.logo {
+    font-size: 24px;
+    color: #f9faf8;
+}
+
+.hero-main {
+    font-size: 48px;
+    font-weight: bolder;
+    color: #f9faf8
+}
+
+a.header-link-text,
+p.hero-subtext,
+p.copyright {
+    font-size: 18px;
+    color: #e5e7eb;
+}
+
+p.card-subtext {
+    color: black;
+}
+
+p.quote-text {
+    color: #1f2937;
+    font-style: italic;
+    font-size: 36px;
+}
+
+.cta-text, .signup {
+    color: #e5e7eb;
+}
+
+.cta-main {
+    font-weight: bold;
+    font-size: 19px;
+}
+
+/* Element Styles */
+a {
+    text-decoration: none;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+button.signup {
+    font-size: 18px;
+    background-color: #3882f6;
+    align-self: flex-start;
+}
